@@ -1,0 +1,113 @@
+{
+  "education": [
+    {
+      "name": "Middlebury College",
+      "location": "Middlebury, VT",
+      "date": "May 2023",
+      "additional_information": {
+        "degree": "Candidate for Bachelor of Arts in Computer Science",
+        "GPA": "3.89/4.00",
+        "honors": "College Scholar (Highest Academic Honors)",
+        "skills": {
+          "programming_languages": ["C", "Python", "Clojure", "Java", "R"],
+          "development_tools": [
+            "AWS",
+            "CloudFormation",
+            "Jenkins",
+            "Docker",
+            "Git"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Middlesex School",
+      "location": "Concord, MA",
+      "date": "May 2019",
+      "additional_information": {
+        "awards": "Honors AP Scholar with Distinction (Community Service, Tennis)",
+        "activities": [
+          "Community Service",
+          "School Leader of Heading Home, 2016-2019",
+          "Middlesex Yearbook: 2017-2019"
+        ],
+        "athletics": "Middlesex Varsity Tennis: 2016-2019"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "name": "Genesys",
+      "location": "Durham, NC",
+      "date": "Summer 2021, Summer 2022",
+      "additional_information": {
+        "position": "Software Engineering Intern",
+        "details": [
+          "Worked on the Cloud Service Availability DevOps team",
+          "Gained experience with backend AWS infrastructure. Built lambdas in both Clojure and Python, and prototyped a user interface with React to allow the security team to audit and regulate developer access to development tools and platforms",
+          "Developed BitBucket repository auditing software in Clojure",
+          "Integrated Oracle auditing tool with developer environment credential granting pipeline"
+        ]
+      }
+    },
+    {
+      "name": "Computer Science Department Teaching Assistant",
+      "location": "Middlebury, VT",
+      "date": "2022 – Present",
+      "additional_information": {
+        "position": "Systems Programming Teaching Assistant",
+        "details": [
+          "Hosting biweekly office hours for computer science majors enrolled in, elective, upper level, Systems Programming",
+          "Assisting students in projects to re-write C standard library functions such as fread(3), fwrite(3), mmap(2), malloc(3), and command line tools including a shell, and ls"
+        ]
+      }
+    },
+    {
+      "name": "Middlebury College Snow Bowl Ski Patrol",
+      "location": "Hancock, VT",
+      "date": "2019 – Present",
+      "additional_information": {
+        "position": "Ski Patrol President",
+        "details": [
+          "Leading a team of ski patrollers to ensure customer safety by providing medical care and safe mountain operations",
+          "Professional National Ski Patroller with Emergency Medical Technician (EMT) and Outdoor Emergency Care (OEC) Certifications"
+        ]
+      }
+    },
+    {
+      "name": "Computer Science Department Grader",
+      "location": "Middlebury, VT",
+      "date": "2021 - 2022",
+      "additional_information": {
+        "position": "Computing for the Sciences Grader",
+        "details": [
+          "Worked with introductory computer science students learning python",
+          "Graded over 50 assignments weekly in python providing students with feedback for their development as computer scientists"
+        ]
+      }
+    },
+    {
+      "name": "Biology Department Research Assistant",
+      "location": "Middlebury, VT",
+      "date": "2020-2021",
+      "additional_information": {
+        "position": "Data Science Research Assistant",
+        "details": [
+          "Independently built Shiny web applications in R to visualize tick population densities and pathogen trends using data collected in Professor David Allen’s lab, and by the National Ecological Observatory Network",
+          "Worked to ensure polished demos for the new Middlebury midd.data initiative"
+        ]
+      }
+    },
+    {
+      "name": "The Mercantile",
+      "location": "Dennis, MA",
+      "date": "Summers 2018 - 2020",
+      "additional_information": {
+        "position": "Assistant Chef",
+        "details": [
+          "Worked 30-40 hours per week, independently preparing gourmet bakery items and lunch foods"
+        ]
+      }
+    }
+  ]
+}

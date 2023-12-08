@@ -1,0 +1,80 @@
+body {
+  font-family: "Calibri", sans-serif;
+  font-weight: 300; /* Thin font */
+  font-size: 13px; /* Increased font size by 1 point */
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  position: relative; /* Necessary for footer positioning */
+}
+
+.paper {
+  width: 8.5in;
+  border-radius: 4px;
+  padding: 1in;
+  padding-bottom: 60px; /* Increased bottom padding to accommodate the footer */
+  box-sizing: border-box;
+  background: #ffff;
+  margin-top: 50px;
+  margin-bottom: 50px; /* Margin below the paper */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0; /* Position at the absolute bottom of the page */
+  left: 0;
+  width: 100%; /* Full width of the page */
+  padding: 10px 0; /* Padding inside the footer */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300; /* Thin font */
+}
+
+h1 {
+  font-size: 23px; /* Increased font size */
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 17px; /* Increased font size */
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 13px; /* Increased font size */
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.right-justified {
+  text-align: right;
+}
+
+.section hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
