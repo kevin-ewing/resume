@@ -47,9 +47,9 @@ function formatSkills(skills) {
   const skillsElement = document.createElement("div");
   for (const key in skills) {
     const skillCategory = document.createElement("div");
-    skillCategory.textContent = `${formatSkillName(key)}: ${skills[key]
-      .map(capitalizeFirstLetter)
-      .join(", ")}`;
+    skillCategory.textContent = `${formatSkillName(key)}: ${skills[key].join(
+      ", "
+    )}`;
     skillsElement.appendChild(skillCategory);
   }
   return skillsElement;
