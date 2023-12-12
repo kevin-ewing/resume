@@ -118,341 +118,156 @@
   ],
   "projects": [
     {
-      "name": "babashka_search",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "Clojure": 2565
-        }
-      },
-      "date_range": "2021-07-21 - 2021-07-21"
-    },
-    {
       "name": "blender-kevin",
+      "location": "HTML, JavaScript and CSS",
       "additional_information": {
-        "description": null,
-        "languages": {
-          "HTML": 12945,
-          "JavaScript": 10884,
-          "CSS": 10437
-        }
+        "description": "My blender portfolio website, showcasing 3d works from 2021 and 2022."
       },
-      "date_range": "2022-07-07 - 2023-12-08"
-    },
-    {
-      "name": "browser-instruments",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "HTML": 1721,
-          "JavaScript": 913
-        }
-      },
-      "date_range": "2021-08-03 - 2021-08-03"
-    },
-    {
-      "name": "Chess-Challenge",
-      "additional_information": {
-        "description": "https://youtu.be/iScy18pVR58",
-        "languages": {
-          "C#": 248765,
-          "GLSL": 778
-        }
-      },
-      "date_range": "2023-07-22 - 2023-07-22"
+      "date": "2022-07-07 - 2023-12-12"
     },
     {
       "name": "city_blender_scripting",
+      "location": "Python and Shell",
       "additional_information": {
-        "description": "Learning Blender's python API",
-        "languages": {
-          "Python": 124154,
-          "Shell": 401
-        }
+        "description": "Learning Blender's python API"
       },
-      "date_range": "2021-11-22 - 2022-10-24"
-    },
-    {
-      "name": "cs201",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "Java": 81006
-        }
-      },
-      "date_range": "2022-04-21 - 2022-04-21"
-    },
-    {
-      "name": "cs414",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "C": 12032,
-          "Makefile": 827,
-          "DTrace": 732
-        }
-      },
-      "date_range": "2022-04-20 - 2022-04-20"
-    },
-    {
-      "name": "cs414assignment4",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "C": 7164,
-          "Makefile": 155,
-          "Shell": 53
-        }
-      },
-      "date_range": "2022-05-09 - 2022-05-09"
-    },
-    {
-      "name": "cs702",
-      "additional_information": {
-        "description": "literature from computer science thesis",
-        "languages": {
-          "TeX": 26199,
-          "R": 24768,
-          "HTML": 10902
-        }
-      },
-      "date_range": "2023-01-19 - 2023-01-31"
+      "date": "2021-11-22 - 2022-10-24"
     },
     {
       "name": "digital_studio",
+      "location": "HTML, JavaScript and CSS",
       "additional_information": {
-        "description": null,
-        "languages": {
-          "HTML": 20906,
-          "JavaScript": 17197,
-          "CSS": 6723
-        }
+        "description": "Portfolio website created for my introduction to digital art class"
       },
-      "date_range": "2023-04-27 - 2023-04-27"
+      "date": "2023-04-27 - 2023-12-12"
     },
     {
       "name": "hamiltonian-knot",
+      "location": "Python",
       "additional_information": {
-        "description": "Blender Python API scripting to create all hamiltonian paths through a mesh",
-        "languages": {
-          "Python": 12422
-        }
+        "description": "Blender Python API scripting to create all hamiltonian paths through a mesh"
       },
-      "date_range": "2022-04-13 - 2022-05-11"
-    },
-    {
-      "name": "harry-potter-sentiment",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "R": 3626
-        }
-      },
-      "date_range": "2021-07-16 - 2021-08-06"
+      "date": "2022-04-13 - 2022-05-11"
     },
     {
       "name": "horologe",
+      "location": "Swift",
       "additional_information": {
-        "description": "A digital clock widget for macOS Notification Center with multiple timezone support.",
-        "languages": {
-          "Swift": 5825
-        }
+        "description": "A digital clock widget for macOS Notification Center with multiple timezone support."
       },
-      "date_range": "2023-06-16 - 2023-06-16"
+      "date": "2023-06-16 - 2023-06-16"
     },
     {
       "name": "keames",
+      "location": "JavaScript, CSS and HTML",
       "additional_information": {
-        "description": "Kevin's Coding Production Logo",
-        "languages": {
-          "JavaScript": 8115871,
-          "CSS": 6417,
-          "HTML": 2649
-        }
+        "description": "Demo ThreeJS static site of an eames chair"
       },
-      "date_range": "2023-09-14 - 2023-09-14"
+      "date": "2023-09-14 - 2023-12-12"
     },
     {
       "name": "lambada",
+      "location": "Clojure",
       "additional_information": {
-        "description": "A more passionate way to write AWS Lambda functions",
-        "languages": {
-          "Clojure": 2068
-        }
+        "description": "A more passionate way to write AWS Lambda functions"
       },
-      "date_range": "2023-10-24 - 2023-10-24"
-    },
-    {
-      "name": "lein-template",
-      "additional_information": {
-        "description": "shadow-cljs template",
-        "languages": {
-          "Clojure": 3870,
-          "HTML": 494,
-          "CSS": 17
-        }
-      },
-      "date_range": "2023-09-21 - 2023-09-21"
-    },
-    {
-      "name": "magical_treehouse",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "JavaScript": 8115761,
-          "HTML": 1245,
-          "CSS": 1220
-        }
-      },
-      "date_range": "2023-07-08 - 2023-07-08"
+      "date": "2023-10-24 - 2023-10-24"
     },
     {
       "name": "mountaintop_castle",
+      "location": "JavaScript, HTML and CSS",
       "additional_information": {
-        "description": "Three.js rendering of a mountaintop castle",
-        "languages": {
-          "JavaScript": 8115761,
-          "HTML": 1254,
-          "CSS": 1220
-        }
+        "description": "Three.js rendering of a mountaintop castle"
       },
-      "date_range": "2023-06-08 - 2023-06-08"
+      "date": "2023-06-08 - 2023-06-08"
     },
     {
       "name": "my-website-resume",
+      "location": "JavaScript and HTML",
       "additional_information": {
-        "description": "A website resume playground for learning JavaScript, React, and Material UI",
-        "languages": {
-          "JavaScript": 112629,
-          "HTML": 1784
-        }
+        "description": "A website resume playground for learning JavaScript, React, and Material UI"
       },
-      "date_range": "2021-07-07 - 2022-02-03"
+      "date": "2021-07-07 - 2022-02-03"
+    },
+    {
+      "name": "network",
+      "location": "Python and Shell",
+      "additional_information": {
+        "description": "A collection of network reconnaissance tools created during my crash-course on network security"
+      },
+      "date": "2023-09-17 - 2023-12-12"
+    },
+    {
+      "name": "odit",
+      "location": "Python",
+      "additional_information": {
+        "description": "Open Dialogue for Git (CS 701 Senior Seminar Project)"
+      },
+      "date": "2022-10-06 - 2023-12-12"
     },
     {
       "name": "ophis",
+      "location": "",
       "additional_information": {
-        "description": "python command line wrapper for git bringing it out of 2005",
-        "languages": {}
+        "description": "python command line wrapper for git bringing it out of 2005"
       },
-      "date_range": "2022-07-15 - 2022-07-15"
+      "date": "2022-07-15 - 2022-07-15"
     },
     {
       "name": "quartzite",
+      "location": "Clojure",
       "additional_information": {
-        "description": "Quarzite is a thin idiomatic Clojure layer on top the Quartz Scheduler",
-        "languages": {
-          "Clojure": 76327
-        }
+        "description": "Quarzite is a thin idiomatic Clojure layer on top the Quartz Scheduler"
       },
-      "date_range": "2023-11-30 - 2023-11-30"
+      "date": "2023-11-30 - 2023-11-30"
     },
     {
       "name": "reading_list",
+      "location": "HTML, JavaScript and CSS",
       "additional_information": {
-        "description": "Some coding books I have enjoyed or plan on reading",
-        "languages": {
-          "HTML": 5221,
-          "JavaScript": 4578,
-          "CSS": 3255
-        }
+        "description": "A collection of some coding books I have enjoyed or plan on reading"
       },
-      "date_range": "2022-06-08 - 2023-11-03"
+      "date": "2022-06-08 - 2023-12-12"
     },
     {
       "name": "resume",
+      "location": "JavaScript, CSS and HTML",
       "additional_information": {
-        "description": "My Resume",
-        "languages": {
-          "JavaScript": 7603,
-          "CSS": 1435,
-          "HTML": 1031
-        }
+        "description": "My resume as a webpage. Github CI job to continually keep project information up to date."
       },
-      "date_range": "2023-12-08 - 2023-12-08"
-    },
-    {
-      "name": "shadow-cljs-frontend-emplate",
-      "additional_information": {
-        "description": "Template Frontend Web App in Shadow ClojureScript",
-        "languages": {
-          "HTML": 196,
-          "Clojure": 69
-        }
-      },
-      "date_range": "2023-08-09 - 2023-08-09"
+      "date": "2023-12-08 - 2023-12-12"
     },
     {
       "name": "sketchbook",
+      "location": "JavaScript, HTML and CSS",
       "additional_information": {
-        "description": "CSCI0467 Generative Art Sketchbook",
-        "languages": {
-          "JavaScript": 120949,
-          "HTML": 19173,
-          "CSS": 3493
-        }
+        "description": "CSCI0467 Generative Art Sketchbook."
       },
-      "date_range": "2023-02-17 - 2023-08-02"
-    },
-    {
-      "name": "tick-density-data-exploration",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "R": 10506,
-          "Dockerfile": 1425
-        }
-      },
-      "date_range": "2021-07-16 - 2021-07-19"
-    },
-    {
-      "name": "tick-pathogen-data-exploration",
-      "additional_information": {
-        "description": null,
-        "languages": {
-          "R": 11876
-        }
-      },
-      "date_range": "2021-07-07 - 2021-07-07"
+      "date": "2023-02-17 - 2023-12-12"
     },
     {
       "name": "website_list",
+      "location": "",
       "additional_information": {
-        "description": "Curated List of Inspiring Websites",
-        "languages": {}
+        "description": "Curated List of Inspiring Websites"
       },
-      "date_range": "2023-09-26 - 2023-09-26"
+      "date": "2023-09-26 - 2023-09-26"
     },
     {
       "name": "whimsical_cabin",
+      "location": "JavaScript, HTML and CSS",
       "additional_information": {
-        "description": "Three.js rendering of a 3d whimsical cabin",
-        "languages": {
-          "JavaScript": 8115758,
-          "HTML": 1241,
-          "CSS": 1220
-        }
+        "description": "Three.js rendering of a 3d whimsical cabin"
       },
-      "date_range": "2023-06-04 - 2023-06-04"
+      "date": "2023-06-04 - 2023-06-04"
     },
     {
       "name": "zfs-internal-reference-count",
+      "location": "C, Shell, Assembly, M4, Python, Makefile, Lua, Perl, Roff and sed",
       "additional_information": {
-        "description": "OpenZFS on Linux and FreeBSD implementation of the internal reference count",
-        "languages": {
-          "C": 16606138,
-          "Shell": 3970912,
-          "Assembly": 1160201,
-          "M4": 477010,
-          "Python": 401215,
-          "Makefile": 184615,
-          "Lua": 39188,
-          "Perl": 26319,
-          "Roff": 2598,
-          "sed": 1970
-        }
+        "description": "OpenZFS on Linux and FreeBSD implementation of the internal reference count"
       },
-      "date_range": "2023-03-08 - 2023-03-08"
+      "date": "2023-03-08 - 2023-03-08"
     }
   ]
 }

@@ -14,14 +14,20 @@ axios
     return Promise.all(
       repos.map((repo) => {
         return axios.get(repo.languages_url).then((langResponse) => {
-          const dateRange = `${repo.created_at.split("T")[0]} - ${
-            repo.updated_at.split("T")[0]
-          }`;
+          const languages = Object.keys(langResponse.data);
+          let languagesString = '';
+          if (languages.length > 1) {
+            languagesString = languages.slice(0, -1).join(', ') + ' and ' + languages[languages.length - 1];
+          } else if (languages.length === 1) {
+            languagesString = languages[0];
+          }
+
+          const dateRange = `${repo.created_at.split("T")[0]} - ${repo.updated_at.split("T")[0]}`;
           return {
             name: repo.name,
+            location: languagesString,
             additional_information: {
               description: repo.description,
-              languages: langResponse.data,
             },
             date: dateRange,
           };

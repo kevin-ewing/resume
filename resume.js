@@ -115,7 +115,7 @@ async function buildResume() {
 
   const projectsSection = createResumeSection(
     "Projects",
-    resumeData.experience
+    resumeData.projects
   );
   paperElement.appendChild(projectsSection);
 }
