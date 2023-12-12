@@ -113,7 +113,10 @@ async function buildResume() {
   );
   paperElement.appendChild(experienceSection);
 
-  const projectsSection = createResumeSection("Projects", resumeData.projects);
+  const projectsSection = createResumeSection(
+    "Projects",
+    resumeData.experience
+  );
   paperElement.appendChild(projectsSection);
 }
 

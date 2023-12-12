@@ -3,7 +3,8 @@ const fs = require("fs");
 
 const username = "kevin-ewing"; // Replace with your GitHub username
 const apiUrl = `https://api.github.com/users/${username}/repos`;
-const resumeFilePath = "resume.json"; // Path to your resume.json file
+const baseFilePath = "../resources/base.json"; // Path to your resume.json file
+const resumeFilePath = "../resources/resume.json"; // Path to your resume.json file
 
 axios
   .get(apiUrl)
@@ -22,7 +23,7 @@ axios
               description: repo.description,
               languages: langResponse.data,
             },
-            date_range: dateRange,
+            date: dateRange,
           };
         });
       })
@@ -30,7 +31,7 @@ axios
   })
   .then((repoData) => {
     // Read the existing resume.json file
-    fs.readFile(resumeFilePath, "utf8", (err, data) => {
+    fs.readFile(baseFilePath, "utf8", (err, data) => {
       if (err) {
         console.error("Error reading resume.json", err);
         return;

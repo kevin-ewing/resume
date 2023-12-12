@@ -1,0 +1,458 @@
+{
+  "education": [
+    {
+      "name": "Middlebury College",
+      "location": "Middlebury, VT",
+      "date": "May 2023",
+      "additional_information": {
+        "degree": "Candidate for Bachelor of Arts in Computer Science",
+        "GPA": "3.89/4.00",
+        "honors": "College Scholar (Highest Academic Honors)",
+        "skills": {
+          "programming_languages": [
+            "C",
+            "Python",
+            "Clojure",
+            "Java",
+            "R"
+          ],
+          "development_tools": [
+            "AWS",
+            "CloudFormation",
+            "Jenkins",
+            "Docker",
+            "Git"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Middlesex School",
+      "location": "Concord, MA",
+      "date": "May 2019",
+      "additional_information": {
+        "awards": "Honors AP Scholar with Distinction (Community Service, Tennis)",
+        "activities": [
+          "Community Service",
+          "School Leader of Heading Home, 2016-2019",
+          "Middlesex Yearbook: 2017-2019"
+        ],
+        "athletics": "Middlesex Varsity Tennis: 2016-2019"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "name": "Genesys",
+      "location": "Durham, NC",
+      "date": "Summer 2021, Summer 2022",
+      "additional_information": {
+        "position": "Software Engineering Intern",
+        "details": [
+          "Worked on the Cloud Service Availability DevOps team",
+          "Gained experience with backend AWS infrastructure. Built lambdas in both Clojure and Python, and prototyped a user interface with React to allow the security team to audit and regulate developer access to development tools and platforms",
+          "Developed BitBucket repository auditing software in Clojure",
+          "Integrated Oracle auditing tool with developer environment credential granting pipeline"
+        ]
+      }
+    },
+    {
+      "name": "Computer Science Department Teaching Assistant",
+      "location": "Middlebury, VT",
+      "date": "2022 – Present",
+      "additional_information": {
+        "position": "Systems Programming Teaching Assistant",
+        "details": [
+          "Hosting biweekly office hours for computer science majors enrolled in, elective, upper level, Systems Programming",
+          "Assisting students in projects to re-write C standard library functions such as fread(3), fwrite(3), mmap(2), malloc(3), and command line tools including a shell, and ls"
+        ]
+      }
+    },
+    {
+      "name": "Middlebury College Snow Bowl Ski Patrol",
+      "location": "Hancock, VT",
+      "date": "2019 – Present",
+      "additional_information": {
+        "position": "Ski Patrol President",
+        "details": [
+          "Leading a team of ski patrollers to ensure customer safety by providing medical care and safe mountain operations",
+          "Professional National Ski Patroller with Emergency Medical Technician (EMT) and Outdoor Emergency Care (OEC) Certifications"
+        ]
+      }
+    },
+    {
+      "name": "Computer Science Department Grader",
+      "location": "Middlebury, VT",
+      "date": "2021 - 2022",
+      "additional_information": {
+        "position": "Computing for the Sciences Grader",
+        "details": [
+          "Worked with introductory computer science students learning python",
+          "Graded over 50 assignments weekly in python providing students with feedback for their development as computer scientists"
+        ]
+      }
+    },
+    {
+      "name": "Biology Department Research Assistant",
+      "location": "Middlebury, VT",
+      "date": "2020-2021",
+      "additional_information": {
+        "position": "Data Science Research Assistant",
+        "details": [
+          "Independently built Shiny web applications in R to visualize tick population densities and pathogen trends using data collected in Professor David Allen’s lab, and by the National Ecological Observatory Network",
+          "Worked to ensure polished demos for the new Middlebury midd.data initiative"
+        ]
+      }
+    },
+    {
+      "name": "The Mercantile",
+      "location": "Dennis, MA",
+      "date": "Summers 2018 - 2020",
+      "additional_information": {
+        "position": "Assistant Chef",
+        "details": [
+          "Worked 30-40 hours per week, independently preparing gourmet bakery items and lunch foods"
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "babashka_search",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "Clojure": 2565
+        }
+      },
+      "date_range": "2021-07-21 - 2021-07-21"
+    },
+    {
+      "name": "blender-kevin",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "HTML": 12945,
+          "JavaScript": 10884,
+          "CSS": 10437
+        }
+      },
+      "date_range": "2022-07-07 - 2023-12-08"
+    },
+    {
+      "name": "browser-instruments",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "HTML": 1721,
+          "JavaScript": 913
+        }
+      },
+      "date_range": "2021-08-03 - 2021-08-03"
+    },
+    {
+      "name": "Chess-Challenge",
+      "additional_information": {
+        "description": "https://youtu.be/iScy18pVR58",
+        "languages": {
+          "C#": 248765,
+          "GLSL": 778
+        }
+      },
+      "date_range": "2023-07-22 - 2023-07-22"
+    },
+    {
+      "name": "city_blender_scripting",
+      "additional_information": {
+        "description": "Learning Blender's python API",
+        "languages": {
+          "Python": 124154,
+          "Shell": 401
+        }
+      },
+      "date_range": "2021-11-22 - 2022-10-24"
+    },
+    {
+      "name": "cs201",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "Java": 81006
+        }
+      },
+      "date_range": "2022-04-21 - 2022-04-21"
+    },
+    {
+      "name": "cs414",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "C": 12032,
+          "Makefile": 827,
+          "DTrace": 732
+        }
+      },
+      "date_range": "2022-04-20 - 2022-04-20"
+    },
+    {
+      "name": "cs414assignment4",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "C": 7164,
+          "Makefile": 155,
+          "Shell": 53
+        }
+      },
+      "date_range": "2022-05-09 - 2022-05-09"
+    },
+    {
+      "name": "cs702",
+      "additional_information": {
+        "description": "literature from computer science thesis",
+        "languages": {
+          "TeX": 26199,
+          "R": 24768,
+          "HTML": 10902
+        }
+      },
+      "date_range": "2023-01-19 - 2023-01-31"
+    },
+    {
+      "name": "digital_studio",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "HTML": 20906,
+          "JavaScript": 17197,
+          "CSS": 6723
+        }
+      },
+      "date_range": "2023-04-27 - 2023-04-27"
+    },
+    {
+      "name": "hamiltonian-knot",
+      "additional_information": {
+        "description": "Blender Python API scripting to create all hamiltonian paths through a mesh",
+        "languages": {
+          "Python": 12422
+        }
+      },
+      "date_range": "2022-04-13 - 2022-05-11"
+    },
+    {
+      "name": "harry-potter-sentiment",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "R": 3626
+        }
+      },
+      "date_range": "2021-07-16 - 2021-08-06"
+    },
+    {
+      "name": "horologe",
+      "additional_information": {
+        "description": "A digital clock widget for macOS Notification Center with multiple timezone support.",
+        "languages": {
+          "Swift": 5825
+        }
+      },
+      "date_range": "2023-06-16 - 2023-06-16"
+    },
+    {
+      "name": "keames",
+      "additional_information": {
+        "description": "Kevin's Coding Production Logo",
+        "languages": {
+          "JavaScript": 8115871,
+          "CSS": 6417,
+          "HTML": 2649
+        }
+      },
+      "date_range": "2023-09-14 - 2023-09-14"
+    },
+    {
+      "name": "lambada",
+      "additional_information": {
+        "description": "A more passionate way to write AWS Lambda functions",
+        "languages": {
+          "Clojure": 2068
+        }
+      },
+      "date_range": "2023-10-24 - 2023-10-24"
+    },
+    {
+      "name": "lein-template",
+      "additional_information": {
+        "description": "shadow-cljs template",
+        "languages": {
+          "Clojure": 3870,
+          "HTML": 494,
+          "CSS": 17
+        }
+      },
+      "date_range": "2023-09-21 - 2023-09-21"
+    },
+    {
+      "name": "magical_treehouse",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "JavaScript": 8115761,
+          "HTML": 1245,
+          "CSS": 1220
+        }
+      },
+      "date_range": "2023-07-08 - 2023-07-08"
+    },
+    {
+      "name": "mountaintop_castle",
+      "additional_information": {
+        "description": "Three.js rendering of a mountaintop castle",
+        "languages": {
+          "JavaScript": 8115761,
+          "HTML": 1254,
+          "CSS": 1220
+        }
+      },
+      "date_range": "2023-06-08 - 2023-06-08"
+    },
+    {
+      "name": "my-website-resume",
+      "additional_information": {
+        "description": "A website resume playground for learning JavaScript, React, and Material UI",
+        "languages": {
+          "JavaScript": 112629,
+          "HTML": 1784
+        }
+      },
+      "date_range": "2021-07-07 - 2022-02-03"
+    },
+    {
+      "name": "ophis",
+      "additional_information": {
+        "description": "python command line wrapper for git bringing it out of 2005",
+        "languages": {}
+      },
+      "date_range": "2022-07-15 - 2022-07-15"
+    },
+    {
+      "name": "quartzite",
+      "additional_information": {
+        "description": "Quarzite is a thin idiomatic Clojure layer on top the Quartz Scheduler",
+        "languages": {
+          "Clojure": 76327
+        }
+      },
+      "date_range": "2023-11-30 - 2023-11-30"
+    },
+    {
+      "name": "reading_list",
+      "additional_information": {
+        "description": "Some coding books I have enjoyed or plan on reading",
+        "languages": {
+          "HTML": 5221,
+          "JavaScript": 4578,
+          "CSS": 3255
+        }
+      },
+      "date_range": "2022-06-08 - 2023-11-03"
+    },
+    {
+      "name": "resume",
+      "additional_information": {
+        "description": "My Resume",
+        "languages": {
+          "JavaScript": 7603,
+          "CSS": 1435,
+          "HTML": 1031
+        }
+      },
+      "date_range": "2023-12-08 - 2023-12-08"
+    },
+    {
+      "name": "shadow-cljs-frontend-emplate",
+      "additional_information": {
+        "description": "Template Frontend Web App in Shadow ClojureScript",
+        "languages": {
+          "HTML": 196,
+          "Clojure": 69
+        }
+      },
+      "date_range": "2023-08-09 - 2023-08-09"
+    },
+    {
+      "name": "sketchbook",
+      "additional_information": {
+        "description": "CSCI0467 Generative Art Sketchbook",
+        "languages": {
+          "JavaScript": 120949,
+          "HTML": 19173,
+          "CSS": 3493
+        }
+      },
+      "date_range": "2023-02-17 - 2023-08-02"
+    },
+    {
+      "name": "tick-density-data-exploration",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "R": 10506,
+          "Dockerfile": 1425
+        }
+      },
+      "date_range": "2021-07-16 - 2021-07-19"
+    },
+    {
+      "name": "tick-pathogen-data-exploration",
+      "additional_information": {
+        "description": null,
+        "languages": {
+          "R": 11876
+        }
+      },
+      "date_range": "2021-07-07 - 2021-07-07"
+    },
+    {
+      "name": "website_list",
+      "additional_information": {
+        "description": "Curated List of Inspiring Websites",
+        "languages": {}
+      },
+      "date_range": "2023-09-26 - 2023-09-26"
+    },
+    {
+      "name": "whimsical_cabin",
+      "additional_information": {
+        "description": "Three.js rendering of a 3d whimsical cabin",
+        "languages": {
+          "JavaScript": 8115758,
+          "HTML": 1241,
+          "CSS": 1220
+        }
+      },
+      "date_range": "2023-06-04 - 2023-06-04"
+    },
+    {
+      "name": "zfs-internal-reference-count",
+      "additional_information": {
+        "description": "OpenZFS on Linux and FreeBSD implementation of the internal reference count",
+        "languages": {
+          "C": 16606138,
+          "Shell": 3970912,
+          "Assembly": 1160201,
+          "M4": 477010,
+          "Python": 401215,
+          "Makefile": 184615,
+          "Lua": 39188,
+          "Perl": 26319,
+          "Roff": 2598,
+          "sed": 1970
+        }
+      },
+      "date_range": "2023-03-08 - 2023-03-08"
+    }
+  ]
+}
