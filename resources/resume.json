@@ -119,155 +119,147 @@
   "projects": [
     {
       "name": "blender-kevin",
-      "location": "HTML, JavaScript and CSS",
       "additional_information": {
         "description": "My blender portfolio website, showcasing 3d works from 2021 and 2022."
       },
-      "date": "2022-07-07 - 2023-12-12"
+      "location": "HTML, JavaScript and CSS",
+      "date": "July 2022 - Present"
     },
     {
       "name": "city_blender_scripting",
-      "location": "Python and Shell",
       "additional_information": {
         "description": "Learning Blender's python API"
       },
-      "date": "2021-11-22 - 2022-10-24"
+      "location": "Python and Shell",
+      "date": "November 2021 - October 2022"
     },
     {
       "name": "digital_studio",
-      "location": "HTML, JavaScript and CSS",
       "additional_information": {
         "description": "Portfolio website created for my introduction to digital art class"
       },
-      "date": "2023-04-27 - 2023-12-12"
-    },
-    {
-      "name": "hamiltonian-knot",
-      "location": "Python",
-      "additional_information": {
-        "description": "Blender Python API scripting to create all hamiltonian paths through a mesh"
-      },
-      "date": "2022-04-13 - 2022-05-11"
-    },
-    {
-      "name": "horologe",
-      "location": "Swift",
-      "additional_information": {
-        "description": "A digital clock widget for macOS Notification Center with multiple timezone support."
-      },
-      "date": "2023-06-16 - 2023-06-16"
-    },
-    {
-      "name": "keames",
-      "location": "JavaScript, CSS and HTML",
-      "additional_information": {
-        "description": "Demo ThreeJS static site of an eames chair"
-      },
-      "date": "2023-09-14 - 2023-12-12"
-    },
-    {
-      "name": "lambada",
-      "location": "Clojure",
-      "additional_information": {
-        "description": "A more passionate way to write AWS Lambda functions"
-      },
-      "date": "2023-10-24 - 2023-10-24"
-    },
-    {
-      "name": "mountaintop_castle",
-      "location": "JavaScript, HTML and CSS",
-      "additional_information": {
-        "description": "Three.js rendering of a mountaintop castle"
-      },
-      "date": "2023-06-08 - 2023-06-08"
-    },
-    {
-      "name": "my-website-resume",
-      "location": "JavaScript and HTML",
-      "additional_information": {
-        "description": "A website resume playground for learning JavaScript, React, and Material UI"
-      },
-      "date": "2021-07-07 - 2022-02-03"
-    },
-    {
-      "name": "network",
-      "location": "Python and Shell",
-      "additional_information": {
-        "description": "A collection of network reconnaissance tools created during my crash-course on network security"
-      },
-      "date": "2023-09-17 - 2023-12-12"
-    },
-    {
-      "name": "odit",
-      "location": "Python",
-      "additional_information": {
-        "description": "Open Dialogue for Git (CS 701 Senior Seminar Project)"
-      },
-      "date": "2022-10-06 - 2023-12-12"
-    },
-    {
-      "name": "ophis",
-      "location": "",
-      "additional_information": {
-        "description": "python command line wrapper for git bringing it out of 2005"
-      },
-      "date": "2022-07-15 - 2022-07-15"
-    },
-    {
-      "name": "quartzite",
-      "location": "Clojure",
-      "additional_information": {
-        "description": "Quarzite is a thin idiomatic Clojure layer on top the Quartz Scheduler"
-      },
-      "date": "2023-11-30 - 2023-11-30"
-    },
-    {
-      "name": "reading_list",
       "location": "HTML, JavaScript and CSS",
-      "additional_information": {
-        "description": "A collection of some coding books I have enjoyed or plan on reading"
-      },
-      "date": "2022-06-08 - 2023-12-12"
-    },
-    {
-      "name": "resume",
-      "location": "JavaScript, CSS and HTML",
-      "additional_information": {
-        "description": "My resume as a webpage. Github CI job to continually keep project information up to date."
-      },
-      "date": "2023-12-08 - 2023-12-12"
-    },
-    {
-      "name": "sketchbook",
-      "location": "JavaScript, HTML and CSS",
-      "additional_information": {
-        "description": "CSCI0467 Generative Art Sketchbook."
-      },
-      "date": "2023-02-17 - 2023-12-12"
+      "date": "April 2023 - Present"
     },
     {
       "name": "website_list",
-      "location": "",
       "additional_information": {
         "description": "Curated List of Inspiring Websites"
       },
-      "date": "2023-09-26 - 2023-09-26"
+      "location": "",
+      "date": "September 2023 - September 2023"
+    },
+    {
+      "name": "horologe",
+      "additional_information": {
+        "description": "A digital clock widget for macOS Notification Center with multiple timezone support."
+      },
+      "location": "Swift",
+      "date": "June 2023 - June 2023"
+    },
+    {
+      "name": "hamiltonian-knot",
+      "additional_information": {
+        "description": "Blender Python API scripting to create all hamiltonian paths through a mesh"
+      },
+      "location": "Python",
+      "date": "April 2022 - May 2022"
+    },
+    {
+      "name": "keames",
+      "additional_information": {
+        "description": "Demo ThreeJS static site of an eames chair"
+      },
+      "location": "JavaScript, CSS and HTML",
+      "date": "September 2023 - Present"
+    },
+    {
+      "name": "lambada",
+      "additional_information": {
+        "description": "A more passionate way to write AWS Lambda functions"
+      },
+      "location": "Clojure",
+      "date": "October 2023 - Present"
+    },
+    {
+      "name": "mountaintop_castle",
+      "additional_information": {
+        "description": "Three.js rendering of a mountaintop castle"
+      },
+      "location": "JavaScript, HTML and CSS",
+      "date": "June 2023 - June 2023"
+    },
+    {
+      "name": "ophis",
+      "additional_information": {
+        "description": "python command line wrapper for git bringing it out of 2005"
+      },
+      "location": "",
+      "date": "July 2022 - July 2022"
+    },
+    {
+      "name": "my-website-resume",
+      "additional_information": {
+        "description": "A website resume playground for learning JavaScript, React, and Material UI"
+      },
+      "location": "JavaScript and HTML",
+      "date": "July 2021 - February 2022"
+    },
+    {
+      "name": "network",
+      "additional_information": {
+        "description": "A collection of network reconnaissance tools created during my crash-course on network security"
+      },
+      "location": "Python and Shell",
+      "date": "September 2023 - Present"
+    },
+    {
+      "name": "odit",
+      "additional_information": {
+        "description": "Open Dialogue for Git (CS 701 Senior Seminar Project)"
+      },
+      "location": "Python",
+      "date": "October 2022 - Present"
+    },
+    {
+      "name": "quartzite",
+      "additional_information": {
+        "description": "Quarzite is a thin idiomatic Clojure layer on top the Quartz Scheduler"
+      },
+      "location": "Clojure",
+      "date": "November 2023 - Present"
+    },
+    {
+      "name": "reading_list",
+      "additional_information": {
+        "description": "A collection of some coding books I have enjoyed or plan on reading"
+      },
+      "location": "HTML, JavaScript and CSS",
+      "date": "June 2022 - Present"
+    },
+    {
+      "name": "resume",
+      "additional_information": {
+        "description": "My resume as a webpage. Github CI job to continually keep project information up to date."
+      },
+      "location": "JavaScript, CSS and HTML",
+      "date": "December 2023 - Present"
+    },
+    {
+      "name": "sketchbook",
+      "additional_information": {
+        "description": "CSCI0467 Generative Art Sketchbook."
+      },
+      "location": "JavaScript, HTML and CSS",
+      "date": "February 2023 - Present"
     },
     {
       "name": "whimsical_cabin",
-      "location": "JavaScript, HTML and CSS",
       "additional_information": {
         "description": "Three.js rendering of a 3d whimsical cabin"
       },
-      "date": "2023-06-04 - 2023-06-04"
-    },
-    {
-      "name": "zfs-internal-reference-count",
-      "location": "C, Shell, Assembly, M4, Python, Makefile, Lua, Perl, Roff and sed",
-      "additional_information": {
-        "description": "OpenZFS on Linux and FreeBSD implementation of the internal reference count"
-      },
-      "date": "2023-03-08 - 2023-03-08"
+      "location": "JavaScript, HTML and CSS",
+      "date": "June 2023 - June 2023"
     }
   ]
 }

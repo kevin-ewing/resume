@@ -3,8 +3,23 @@ const fs = require("fs");
 
 const username = "kevin-ewing"; // Replace with your GitHub username
 const apiUrl = `https://api.github.com/users/${username}/repos`;
-const baseFilePath = "../resources/base.json"; // Path to your resume.json file
+const baseFilePath = "../resources/base.json"; // Path to your base.json file
 const resumeFilePath = "../resources/resume.json"; // Path to your resume.json file
+
+// Helper function to format the date
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const options = { year: 'numeric', month: 'long' };
+  return date.toLocaleDateString('en-US', options);
+}
+
+// Helper function to determine if a date is within the last two months
+function isRecent(dateString) {
+  const date = new Date(dateString);
+  const twoMonthsAgo = new Date();
+  twoMonthsAgo.setMonth(twoMonthsAgo.getMonth() - 2);
+  return date > twoMonthsAgo;
+}
 
 axios
   .get(apiUrl)
@@ -22,13 +37,21 @@ axios
             languagesString = languages[0];
           }
 
-          const dateRange = `${repo.created_at.split("T")[0]} - ${repo.updated_at.split("T")[0]}`;
+          let dateRange = '';
+          const createdDate = formatDate(repo.created_at);
+          const updatedDate = formatDate(repo.updated_at);
+          if (isRecent(repo.updated_at)) {
+            dateRange = `${createdDate} - Present`;
+          } else {
+            dateRange = `${createdDate} - ${updatedDate}`;
+          }
+
           return {
             name: repo.name,
-            location: languagesString,
             additional_information: {
-              description: repo.description,
+              description: repo.description
             },
+            location: languagesString,
             date: dateRange,
           };
         });
@@ -36,24 +59,23 @@ axios
     );
   })
   .then((repoData) => {
-    // Read the existing resume.json file
+    // Sort the projects by most recently updated
+    repoData.sort((a, b) => new Date(b.date.split(' - ')[1]) - new Date(a.date.split(' - ')[1]));
+
     fs.readFile(baseFilePath, "utf8", (err, data) => {
       if (err) {
-        console.error("Error reading resume.json", err);
+        console.error("Error reading base.json", err);
         return;
       }
 
       const resume = JSON.parse(data);
 
-      // Check if the 'projects' field exists, if not create it
       if (!resume.projects) {
         resume.projects = [];
       }
 
-      // Append the new repo data to the 'projects' field
       resume.projects.push(...repoData);
 
-      // Write the updated resume back to the file
       fs.writeFile(resumeFilePath, JSON.stringify(resume, null, 2), (err) => {
         if (err) {
           console.error("Error writing to resume.json", err);
